@@ -49,70 +49,70 @@ def getResponse(utterance, args):
 
 def getResult(inputSTR, utterance, args, resultDICT):
     debugInfo(inputSTR, utterance)
-    if utterance == "[是否][可以][說]法律[百科]屬於非營利[型]別？":
+    if utterance == "[是]否[可以][說]法律[百科]屬於非營利[型]別？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
             # write your code here
             pass
 
-    if utterance == "[是否][可以][說]法律[百科]是[一個]非營利[性質]的[組織]？":
+    if utterance == "[是]否[可以][說]法律[百科]是[一個]非營利[性質]的[組織]？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
             # write your code here
             pass
 
-    if utterance == "[是否][可以][說]法律[百科]是[一個]非營利組織？":
+    if utterance == "[是]否[可以][說]法律[百科]是[一個]非營利組織？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
             # write your code here
             pass
 
-    if utterance == "[是否][可以]認為法律[百科]是非營利[性質]的？":
+    if utterance == "[是]否[可以]認為法律[百科]是非營利[性質]的？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
             # write your code here
             pass
 
-    if utterance == "法律[百科][是否]屬於非營利[性質]？":
+    if utterance == "法律[百科][是]否屬於非營利[性質]？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
             # write your code here
             pass
 
-    if utterance == "法律[百科][是否]屬於非營利組織？":
+    if utterance == "法律[百科][是]否屬於非營利組織？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
             # write your code here
             pass
 
-    if utterance == "法律[百科][是否]是[一個]非營利[型][別]的[組織]？":
+    if utterance == "法律[百科][是]否是[一個]非營利[型][別]的[組織]？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
             # write your code here
             pass
 
-    if utterance == "法律[百科][是否]是[一個]非營利[機構]？":
+    if utterance == "法律[百科][是]否是[一個]非營利[機構]？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
             # write your code here
             pass
 
-    if utterance == "法律[百科][是否]為非營利[性質]的[組織]？":
+    if utterance == "法律[百科][是]否為非營利[性質]的[組織]？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
             # write your code here
             pass
 
-    if utterance == "法律[百科][是否]為非營利組織？":
+    if utterance == "法律[百科][是]否為非營利組織？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:

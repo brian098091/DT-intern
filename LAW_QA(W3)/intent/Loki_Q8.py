@@ -70,7 +70,7 @@ def getResult(inputSTR, utterance, args, resultDICT):
             # write your code here
             pass
 
-    if utterance == "假若[律師][會]因[人工][智慧][AI]而失業，那麼法律[百科][是否][也會]面臨[相同]的[危機]？":
+    if utterance == "假若[律師][會]因[人工][智慧][AI]而失業，那麼法律[百科][是]否[也會]面臨[相同]的[危機]？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
@@ -91,7 +91,7 @@ def getResult(inputSTR, utterance, args, resultDICT):
             # write your code here
             pass
 
-    if utterance == "若[人工][智慧][AI]進步取代[律師]，那麼法律[百科][是否][也][會]有[同樣]的[命運]？":
+    if utterance == "若[人工][智慧][AI]進步取代[律師]，那麼法律[百科][是]否[也][會]有[同樣]的[命運]？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:

@@ -63,7 +63,7 @@ def getResult(inputSTR, utterance, args, resultDICT):
             # write your code here
             pass
 
-    if utterance == "[這個][地方][是否]有[律師][可]諮詢？":
+    if utterance == "[這個][地方][是]否有[律師][可]諮詢？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
@@ -77,7 +77,7 @@ def getResult(inputSTR, utterance, args, resultDICT):
             # write your code here
             pass
 
-    if utterance == "[這個][地點][是否]提供找尋[律師]的[資訊]？":
+    if utterance == "[這個][地點][是]否提供找尋[律師]的[資訊]？":
         if CHATBOT_MODE:
             resultDICT["response"] = getResponse(utterance, args)
         else:
